@@ -1,10 +1,11 @@
 "*":
   core:
-    autoHideMenuBar: true
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
+  editor:
+    fontSize: 13
   "exception-reporting":
     userId: "929776b3-922a-479e-8e43-cebbb4a2425e"

@@ -200,22 +200,22 @@ var hasProperty = function(actualValue, expectedValue) {
   return actualValue == expectedValue
 }
 
-var bindMatcher = function(methodName) {
-  var builtInMatcher = jasmine.Matchers.prototype[methodName]
+function bindMatcher(methodName) {
+    var builtInMatcher = jasmine.Matchers.prototype[methodName]
 
-  jasmine.JQuery.matchersClass[methodName] = function() {
-    if (this.actual && this.actual.jquery || this.actual instanceof HTMLElement) {
-      var result = jQueryMatchers[methodName].apply(this, arguments)
-      this.actual = jasmine.JQuery.elementToString(this.actual)
-      return result
+    jasmine.JQuery.matchersClass[methodName] = function() {
+        if (this.actual && this.actual.jquery || this.actual instanceof HTMLElement) {
+            var result = jQueryMatchers[methodName].apply(this, arguments)
+            this.actual = jasmine.JQuery.elementToString(this.actual)
+            return result
+        }
+
+        if (builtInMatcher) {
+            return builtInMatcher.apply(this, arguments)
+        }
+
+        return false
     }
-
-    if (builtInMatcher) {
-      return builtInMatcher.apply(this, arguments)
-    }
-
-    return false
-  }
 }
 
 for(var methodName in jQueryMatchers) {

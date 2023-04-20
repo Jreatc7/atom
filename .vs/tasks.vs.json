@@ -5,6 +5,41 @@
       "appliesTo": "/",
       "taskLabel": "task-",
       "type": "launch"
+    },
+    {
+      "appliesTo": "vendor/jasmine-jquery.js",
+      "taskLabel": "task-jasmine-jquery",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "vendor/jasmine.js",
+      "taskLabel": "task-jasmine",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "storage/application.json",
+      "taskLabel": "task-application",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "/",
+      "taskLabel": "task-",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/",
+      "taskLabel": "task-packages",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/base16-tomorrow-dark-theme/",
+      "taskLabel": "task-base16-tomorrow-dark-theme",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-base",
+      "appliesTo": "packages/base16-tomorrow-dark-theme/styles/syntax/base.less",
+      "type": "launch"
     }
   ]
 }
