@@ -56,5 +56,23 @@
       "default": "false",
       "order": 5
     }
-  }
+  },
+  "description": "Atom One dark UI theme",
+  "devDependencies": {
+    "standard": "^11.0.0"
+  },
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "keywords": [
+    "dark",
+    "adaptive",
+    "ui"
+  ],
+  "license": "MIT",
+  "main": "lib/main",
+  "name": "one-dark-ui",
+  "repository": "https://github.com/atom/atom",
+  "theme": "ui",
+  "version": "1.12.5"
 }

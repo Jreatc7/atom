@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\apm",
+    "\\benchmarks",
+    "\\blob-store",
+    "\\compile-cache",
+    "\\src",
+    "\\static",
+    "\\storage",
+    "\\vendor"
   ],
-  "SelectedNode": "\\C:\\Users\\jepst\\.atom",
   "PreviewInSolutionExplorer": false
 }

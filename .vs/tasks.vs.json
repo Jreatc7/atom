@@ -40,6 +40,151 @@
       "taskLabel": "task-base",
       "appliesTo": "packages/base16-tomorrow-dark-theme/styles/syntax/base.less",
       "type": "launch"
+    },
+    {
+      "appliesTo": ".apm/.apmrc",
+      "taskLabel": "task-",
+      "type": "launch"
+    },
+    {
+      "appliesTo": ".github/lock.yml",
+      "taskLabel": "task-lock",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "benchmarks/benchmark-runner.js",
+      "taskLabel": "task-benchmark-runner",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "benchmarks/text-editor-large-file-construction.bench.js",
+      "taskLabel": "task-text-editor-large-file-construction.bench",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "benchmarks/benchmark-runner.js",
+      "taskLabel": "task-benchmark-runner",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "compile-cache/coffee/0aa7603dcced49d28edd30be7a8d9c7b60661316.js",
+      "taskLabel": "task-0aa7603dcced49d28edd30be7a8d9c7b60661316",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "compile-cache/js/babel/ce35514db6341e7f32f611892410fdea5abbc019/0e3b3332bc702aded35c979c45d89659f6af922e.js",
+      "taskLabel": "task-0e3b3332bc702aded35c979c45d89659f6af922e",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "compile-cache/style-manager/",
+      "taskLabel": "task-style-manager",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "compile-cache/js/babel/",
+      "taskLabel": "task-babel",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "compile-cache/js/",
+      "taskLabel": "task-js",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "compile-cache/less/",
+      "taskLabel": "task-less",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "compile-cache/less/324f27e1102c1c06a3c516e07546242453e8b0f0/content/",
+      "taskLabel": "task-content",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "compile-cache/less/324f27e1102c1c06a3c516e07546242453e8b0f0/imports.json",
+      "taskLabel": "task-imports",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/autoflow/",
+      "taskLabel": "task-autoflow",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/autoflow/README.md",
+      "taskLabel": "task-README",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/base16/styling.md",
+      "taskLabel": "task-styling",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/base16/README.md",
+      "taskLabel": "task-README",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/base16/file.md",
+      "taskLabel": "task-file",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/base16/builder.md",
+      "taskLabel": "task-builder",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/base16-tomorrow-dark-theme/index.less",
+      "taskLabel": "task-index",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/base16-tomorrow-dark-theme/LICENSE.md",
+      "taskLabel": "task-LICENSE",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/one-dark-ui/lib/main.js",
+      "taskLabel": "task-main",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/one-dark-ui/package.json",
+      "taskLabel": "task-package",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/one-dark-ui/lib/main.js",
+      "taskLabel": "task-main",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "packages/one-dark-ui/lib/main.js",
+      "taskLabel": "task-main",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "stylelint.config.js",
+      "taskLabel": "task-stylelint.config",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "src/main-process/application-menu.js",
+      "taskLabel": "task-application-menu",
+      "type": "launch"
+    },
+    {
+      "appliesTo": "/",
+      "taskLabel": "task-",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-main",
+      "appliesTo": "packages/one-dark-ui/lib/main.js",
+      "type": "launch"
     }
   ]
 }
