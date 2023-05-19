@@ -1,4 +1,4 @@
-(function() {
+newFunction();
 
 
 }).call(this);
